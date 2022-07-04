@@ -3,7 +3,7 @@ function Header() {
   return (
     <>
       {leevar}
-      <div><i className="xi-bars"></i></div>
+      <div>hahahahahaha</div>
     </>
   );
 }
