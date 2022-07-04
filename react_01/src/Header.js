@@ -1,9 +1,9 @@
 function Header() {
-  const leevar = <h2>나는 soa92일까? 아닐까?</h2>;
+  const leevar = <h2>나는 바보인가?</h2>;
   return (
     <>
       {leevar}
-      <div>hahahahahaha</div>
+      <div><i className="xi-bars"></i></div>
     </>
   );
 }
