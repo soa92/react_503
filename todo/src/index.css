@@ -1,8 +1,19 @@
+@import url(https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
 * {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
   box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .Wrapper {
@@ -19,5 +30,33 @@
 
 .TodoList li {
   border-bottom: 1px solid #ddd;
-  padding: 5px 10px;
+  padding: 10px;
+}
+
+.closeBtn {
+  float: right;
+  font-size: 13px;
+  padding: 3px;
+  background: #333;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.TodoListWrap h2 {
+  padding: 20px 10px;
+}
+
+.TodoListWrap hr {
+  margin: 0 0 10px 0;
+  border: none;
+  border-bottom: 1px dotted #333;
+}
+
+.CreateTodoList button {
+  padding: 0 20px;
+  background: #f00;
+  color: #fff;
+  float: right;
+  outline: none;
+  border: none;
 }
